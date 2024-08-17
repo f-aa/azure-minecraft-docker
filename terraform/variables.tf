@@ -23,7 +23,7 @@ variable custom_alert_subject {
 
 variable location {
   type                         = string
-  default                      = "westeurope" # Amsterdam
+  default                      = "canada"
 }
 
 variable enable_auto_startstop {
@@ -108,7 +108,7 @@ variable minecraft_ops {
 # https://github.com/itzg/docker-minecraft-server#timezone-configuration
 variable minecraft_timezone {
   type                         = string
-  default                      = "Europe/Amsterdam"
+  default                      = "Canada/Saskatchewan"
 }
 # https://github.com/itzg/docker-minecraft-server#whitelist-players
 variable minecraft_users {
